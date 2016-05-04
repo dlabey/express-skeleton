@@ -1,0 +1,33 @@
+{
+  "name": "express-skeleton",
+  "version": "0.0.0",
+  "description": "",
+  "main": "v1/server.js",
+  "scripts": {
+    "test": "NODE_ENV=test mocha --recursive test/tests/",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dlabey/express-skeleton.git"
+  },
+  "contributors": [
+    {
+      "name": "",
+      "email": ""
+    }
+  ],
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "express": "^4.13.4",
+    "express-handlebars": "^3.0.0",
+    "named-routes": "^2.0.5",
+    "recursive-readdir": "^2.0.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5",
+    "supertest": "^1.2.0"
+  }
+}
